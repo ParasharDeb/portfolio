@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parashar Deb Portfolio</title>
+ 
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color:rgb(104, 104, 104);
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        nav ul{
+            display: flex;
+            justify-content:enter;
+            
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+           text-decoration: none;
+           color: white;
+        }
+        nav ul li a:hover{
+           text-decoration: none;
+           color: white;
+           font-size: 1.12rem;
+        }
+        main hr{
+            border: 0;
+            background-color: rgb(60, 60, 61);
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+        .firstSection div{
+           width: 30%;
+        }
+        .leftsection{
+            font-size: 2rem;
+            margin: 70px 0;
+            align-items: center;
+        }
+        .rightsection img{
+        width: 100%;
+        margin: 50px 0;
+        }
+        .purple{
+            color: rgb(102, 100, 104);
+        }
+        #element{
+            color: rgb(93, 93, 95);
+ 
+        }
+        .secondsection{
+                max-width: 80vw;
+                margin: auto;
+                align-items: center;
+                height: 80vh;
+            }
+        .secondsection h1{
+            font-size: 1.6rem;
+        }
+    .text-gray{
+        color: gray;
+    }
+    .secondsection .box{
+        background: white;
+        height: 2px;
+        width: 80vw;
+        margin: 56px;
+        display: flex;
+    }
+    .secondsection .vertical{
+        height:93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+    }
+    .vertical{
+        text-align:right;
+    }
+    .imagetop{
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+    }
+    .verticaltitle{
+        position: relative;
+        top: 75px;
+        width: 150px;
+
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Parashar Deb's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                   <li><a href="/">About</a></li>
+                  <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Parashar Deb</span>
+                <div>I am a/an </div>
+                
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+              <img src="paaaa.jpg" alt="">
+            </div>
+        </section>
+        <hr> 
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Entrepreneur','Game Developer'],
+      typeSpeed: 55,
+    });
+  </script>
+</body>
+</html>
